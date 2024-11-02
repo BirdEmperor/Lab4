@@ -31,8 +31,8 @@ def generate_ascii_art():
     # Step 3: Art size (width and height)
     while True:
         try:
-            width = int(input("Enter ASCII art width (recommended over 10): "))
-            height = int(input("Enter ASCII art height (recommended over 1): "))
+            width = int(input("Enter ASCII art width (over 10): "))
+            height = int(input("Enter ASCII art height (over 1): "))
             if width > 10 and height > 1:
                 break
             else:
